@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "live": "live-server src --port=1200",
+    "sass": "sass -w src/style/main.scss:src/style/main.css",
+    "start": "concurrently \"npm run live\" \" npm run scss\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "live-server": "^1.2.2",
+    "sass": "^1.77.8"
+  }
+}
